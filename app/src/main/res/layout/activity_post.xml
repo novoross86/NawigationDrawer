@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/grayColor"
+    tools:context="com.example.admin.nawigationdrawer.PostActivity">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:id="@+id/mBtn"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/mPostDesc"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Комментарий"
+        android:id="@+id/textView2"
+        android:textColor="@color/grayText"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/mPostTitle"
+        android:layout_alignLeft="@+id/mPostDesc"
+        android:layout_alignStart="@+id/mPostDesc" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mPostTitle"
+        android:layout_marginTop="33dp"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Тема"
+        android:id="@+id/textView"
+        android:textColor="@color/grayText"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/imageButton1"
+        android:layout_alignLeft="@+id/mPostTitle"
+        android:layout_alignStart="@+id/mPostTitle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Канал"
+        android:id="@+id/textView3"
+        android:textColor="@color/grayText"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_below="@+id/mPostDesc"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mSp"
+        android:entries="@array/catlist"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="19dp"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+</RelativeLayout>
+

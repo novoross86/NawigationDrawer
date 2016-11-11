@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">NawigationDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="save">Готово</string>
+    <string-array name="catlist">
+        <item>ОРТ</item>
+        <item>Россия1</item>
+        <item>ТНТ</item>
+        <item>НТВ</item>
+        <item>СТС</item>
+        <item>ТВЦ</item>
+        <item>Рентв</item>
+        <item>5 канал</item>
+        <item>Россия 24</item>
+        <item>ТВ3</item>
+        <item>Домашний</item>
+        <item>2x2</item>
+        <item>Культура</item>
+        <item>Пятница</item>
+        <item>Звезда</item>
+        <item>Дисней</item>
+        <item>Че</item>
+        <item>Ю</item>
+        <item>Discovery</item>
+        <item>Моя планета</item>
+    </string-array>
+
+</resources>

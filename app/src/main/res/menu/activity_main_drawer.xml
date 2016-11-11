@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/all"
+            android:title="Все каналы" />
+        <item
+            android:id="@+id/ort"
+            android:title="Орт" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="Россия 1" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="ТНТ" />
+        <item
+            android:id="@+id/nav_manage"
+            android:title="НТВ" />
+        <item
+            android:id="@+id/nav_manage1"
+            android:title="СТС" />
+        <item
+            android:id="@+id/nav_manage2"
+            android:title="ТВЦ" />
+        <item
+            android:id="@+id/nav_manage3"
+            android:title="Рентв" />
+        <item
+            android:id="@+id/nav_manage4"
+            android:title="5 канал" />
+        <item
+            android:id="@+id/nav_manage5"
+            android:title="Россия 24" />
+        <item
+            android:id="@+id/nav_manage6"
+            android:title="ТВ3" />
+        <item
+            android:id="@+id/nav_manage7"
+            android:title="Домашний" />
+        <item
+            android:id="@+id/nav_manage8"
+            android:title="2x2" />
+        <item
+            android:id="@+id/nav_manage9"
+            android:title="Пятница" />
+        <item
+            android:id="@+id/nav_manage10"
+            android:title="Звезда" />
+        <item
+            android:id="@+id/nav_manage11"
+            android:title="Дисней" />
+        <item
+            android:id="@+id/nav_manage12"
+            android:title="Че" />
+        <item
+            android:id="@+id/nav_manage13"
+            android:title="Ю" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

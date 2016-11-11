@@ -1,0 +1,81 @@
+{
+  "project_info": {
+    "project_number": "1027658301434",
+    "firebase_url": "https://chatapplication-7aeb9.firebaseio.com",
+    "project_id": "chatapplication-7aeb9",
+    "storage_bucket": "chatapplication-7aeb9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027658301434:android:8be0111fe410b2e6",
+        "android_client_info": {
+          "package_name": "com.example.admin.chatapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1027658301434-nsfino8pbfq9i9hj8vmbkjmesst3449k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.chatapplication",
+            "certificate_hash": "C12EC35981F6B67B1317DD13FCBFF151FB73194F"
+          }
+        },
+        {
+          "client_id": "1027658301434-j2nf7hg8873fd1gds87pdtqsqkb8v248.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVuR5i4hrH0ph3yn3RWsd_7qV8_2AUx2g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027658301434:android:fe8473a69d36a399",
+        "android_client_info": {
+          "package_name": "com.example.admin.nawigationdrawer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1027658301434-j2nf7hg8873fd1gds87pdtqsqkb8v248.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVuR5i4hrH0ph3yn3RWsd_7qV8_2AUx2g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
